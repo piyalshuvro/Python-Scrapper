@@ -26,6 +26,7 @@ for districtValue in range(1,len(districtOption)):
 			
 			gpSelect = Select(driver.find_element_by_name('ddlgp'));
 			gpSelect.select_by_index(gpValue);
+			driver.implicitly_wait(10);
         	
 
         
